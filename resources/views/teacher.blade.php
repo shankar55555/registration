@@ -13,7 +13,7 @@
     <!-- Styles -->
     <style>
         #antialiased {
-            background-color: rgb(218, 205, 205)
+            background-color: rgb(218, 205, 205);
         }
 
         #head {
@@ -48,14 +48,25 @@
     </div>
 
     <div>
-        @foreach ($teacher_data as $data)
+        {{-- fetch multiple data --}}
+        {{-- @foreach ($teacher_data as $data)
             {{ $data->id }}
             {{ $data->First }}
             {{ $data->Last }}
             {{ $data->State }}
             {{ $data->Pincode }}
             <br>
-        @endforeach
+        @endforeach --}}
+
+
+
+        {{-- fetch for single data --}}
+        {{ $teacher_data->id . '.' }}
+        {{ $teacher_data->First }}
+        {{ $teacher_data->Last . '-' }}
+        {{ $teacher_data->State . '-' }}
+        {{ $teacher_data->Pincode }}
+
     </div>
 
 </body>

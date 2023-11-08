@@ -13,7 +13,7 @@
     <!-- Styles -->
     <style>
         #antialiased {
-            background-color: rgb(184, 166, 166)
+            background-color: rgb(202, 185, 185)
         }
 
         #head {

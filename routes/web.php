@@ -21,4 +21,4 @@ use App\Http\Controllers\TeacherController;
 
 Route::get('/', [HomeController::class, 'index']);  
 Route::get('/signup', [HomeController::class, 'signup']);  
-Route::get('/', [TeacherController::class, 'show_data_teacher']);  
+Route::get('/teacher-data', [TeacherController::class, 'show_data_teacher']);  
