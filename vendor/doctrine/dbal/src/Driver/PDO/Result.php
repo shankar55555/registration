@@ -121,4 +121,4 @@ final class Result implements ResultInterface
             throw Exception::new($exception);
         }
     }
-}
+};

@@ -27,4 +27,4 @@ final class Exception extends AbstractException
 
         return new self($exception->getMessage(), $sqlState, $code, $exception);
     }
-}
+};

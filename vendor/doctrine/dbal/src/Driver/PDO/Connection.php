@@ -155,4 +155,4 @@ final class Connection implements ServerInfoAwareConnection
 
         return $this->getNativeConnection();
     }
-}
+};

@@ -46,4 +46,4 @@ final class ParameterTypeMap
     private function __clone()
     {
     }
-}
+};

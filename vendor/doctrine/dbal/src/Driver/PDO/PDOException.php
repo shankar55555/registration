@@ -30,4 +30,4 @@ final class PDOException extends \PDOException implements DriverException
     {
         return $this->sqlState;
     }
-}
+};
