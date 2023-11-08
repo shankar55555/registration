@@ -56,6 +56,7 @@
         <ul>
             <li><a href="/">Home</a></li>
             <li><a href="/signup">signup</a></li>
+            <li><a href="/teacher-data">Teacher-data</a></li>
         </ul>
     </div>
     <div id="form">

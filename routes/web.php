@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\TeacherController;
 
 /*
 |--------------------------------------------------------------------------
@@ -18,5 +19,6 @@ use App\Http\Controllers\HomeController;
 //     return view('login');
 // });
 
-Route::get('/', [HomeController::class, 'index']);
-Route::match(['get', 'post'], '/signup', [HomeController::class, 'signup']);
+Route::get('/', [HomeController::class, 'index']);  
+Route::get('/signup', [HomeController::class, 'signup']);  
+Route::get('/', [TeacherController::class, 'show_data_teacher']);  
