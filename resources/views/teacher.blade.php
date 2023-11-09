@@ -42,7 +42,7 @@
     <div id="head">
         <ul>
             <li><a href="/">Home</a></li>
-            <li><a href="/signup">signup</a></li>
+            <li><a href="{{ url('signup') }}">signup</a></li>
             <li><a href="/teacher-data">Teacher-data</a></li>
         </ul>
     </div>
